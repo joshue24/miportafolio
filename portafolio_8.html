@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Profesional - Ciberseguridad</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #00bcd4; /* celeste */
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .contacto {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    .contacto i {
+      margin: 0 8px;
+    }
+    .perfil {
+      background-color: #6a1b9a; /* morado */
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      padding: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav span {
+      margin: 0 20px;
+      font-weight: bold;
+      color: #6a1b9a;
+      cursor: pointer;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+    nav span::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      display: block;
+      margin-top: 5px;
+      left: 0;
+      background: #6a1b9a;
+      transition: width 0.3s ease;
+    }
+    nav span:hover {
+      color: #00bcd4;
+    }
+    nav span:hover::after {
+      width: 100%;
+    }
+    .contenido {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 30px;
+    }
+    .columna {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .columna:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .columna h2 {
+      text-align: center;
+      color: #6a1b9a;
+      margin-bottom: 15px;
+    }
+    .columna ul {
+      list-style: none;
+      padding: 0;
+    }
+    .columna ul li {
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+    }
+    .columna ul li i {
+      color: #6a1b9a;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tu Nombre Aquí</h1>
+    <div class="contacto">
+      <i class="fa-solid fa-envelope"></i> tuemail@correo.com |
+      <i class="fa-solid fa-phone"></i> +507 6000-0000 |
+      <i class="fa-brands fa-linkedin"></i> linkedin.com/in/tuusuario |
+      <i class="fa-brands fa-github"></i> github.com/tuusuario
+    </div>
+  </header>
+
+  <div class="perfil">
+    Profesional en Tecnologías de la Información con experiencia en procesos de TI, 
+    gobernanza y seguridad de la información. Mi enfoque se centra en normativas como 
+    NIST, ITIL, ISO 22301 y COBIT 2019, con aportes en proyectos estratégicos como 
+    BIA-BCP y laboratorios prácticos de ciberseguridad.
+  </div>
+
+  <nav>
+    <span>Galería de Proyectos</span>
+    <span>Habilidades</span>
+    <span>Experiencia Laboral</span>
+    <span>Educación</span>
+  </nav>
+
+  <div class="contenido">
+    <div class="columna">
+      <h2>Galería de Proyectos</h2>
+      <ul>
+        <li><i class="fa-solid fa-shield-halved"></i> Proyecto BIA-BCP – Identificación de riesgos TI</li>
+        <li><i class="fa-solid fa-network-wired"></i> Laboratorios: Wazuh & Wireshark</li>
+        <li><i class="fa-solid fa-diagram-project"></i> Gestión de proyectos con MS Project & ProjectLibre</li>
+      </ul>
+    </div>
+
+    <div class="columna">
+      <h2>Habilidades</h2>
+      <ul>
+        <li><i class="fa-solid fa-book"></i> Gobernanza y Cumplimiento (NIST, ITIL, COBIT 2019, ISO 22301)</li>
+        <li><i class="fa-solid fa-magnifying-glass-chart"></i> Monitoreo y análisis de seguridad</li>
+        <li><i class="fa-solid fa-code"></i> Conocimientos en SonarQube & Cypress</li>
+      </ul>
+    </div>
+
+    <div class="columna">
+      <h2>Experiencia Laboral</h2>
+      <ul>
+        <li><i class="fa-solid fa-briefcase"></i> Analista de Procesos TI – Participación en proyectos críticos</li>
+        <li><i class="fa-solid fa-shield"></i> Aportes en gestión de continuidad y seguridad</li>
+      </ul>
+    </div>
+
+    <div class="columna">
+      <h2>Educación</h2>
+      <ul>
+        <li><i class="fa-solid fa-certificate"></i> Certificación CC (ISC)² en Ciberseguridad</li>
+        <li><i class="fa-solid fa-graduation-cap"></i> Cursos en ITIL 4, COBIT 2019 y Continuidad de Negocio</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
