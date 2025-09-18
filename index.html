@@ -3,124 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio Profesional - Ciberseguridad</title>
+  <title>Portafolio Profesional</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f4f4;
-      line-height: 1.6;
+      padding: 0;
+      background: #f4f4f9;
     }
     header {
-      background-color: #00bcd4; /* celeste */
-      color: #fff;
+      background: #00a9d4;
+      color: white;
       text-align: center;
-      padding: 40px 20px;
+      padding: 30px 15px;
     }
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 2.2em;
     }
     .contacto {
       margin-top: 10px;
-      font-size: 1rem;
+      font-size: 0.9em;
     }
     .contacto i {
-      margin: 0 8px;
+      margin-right: 5px;
     }
-    .perfil {
-      background-color: #6a1b9a; /* morado */
+    .descripcion {
+      background: #6a1b9a;
       color: white;
       text-align: center;
-      padding: 25px 15px;
-      font-size: 1.2rem;
+      padding: 15px;
+      font-size: 1.1em;
     }
     nav {
-      background-color: white;
+      background: white;
       display: flex;
       justify-content: center;
-      padding: 12px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    nav span {
-      margin: 0 20px;
+      gap: 30px;
+      padding: 10px 0;
       font-weight: bold;
       color: #6a1b9a;
-      cursor: pointer;
-      position: relative;
-      transition: color 0.3s ease;
-    }
-    nav span::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      display: block;
-      margin-top: 5px;
-      left: 0;
-      background: #6a1b9a;
-      transition: width 0.3s ease;
-    }
-    nav span:hover {
-      color: #00bcd4;
-    }
-    nav span:hover::after {
-      width: 100%;
     }
     .contenido {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
-      padding: 30px;
+      padding: 20px;
     }
     .columna {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .columna:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     .columna h2 {
-      text-align: center;
       color: #6a1b9a;
       margin-bottom: 15px;
+      text-align: center;
     }
-    .columna ul {
+    ul {
       list-style: none;
       padding: 0;
     }
-    .columna ul li {
-      margin-bottom: 12px;
-      display: flex;
-      align-items: center;
+    ul li {
+      margin: 10px 0;
     }
-    .columna ul li i {
+    ul li i {
+      margin-right: 8px;
       color: #6a1b9a;
-      margin-right: 10px;
+    }
+    .proyecto {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .proyecto h3 {
+      color: #6a1b9a;
+      margin-bottom: 10px;
+    }
+    .proyecto p {
+      margin: 5px 0;
+      font-size: 0.95em;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Josué Meléndez Herrera</h1>
+    <h1> Josué Meléndez Herrera </h1>
     <div class="contacto">
-      <i class="fa-solid fa-envelope"></i> jmelende@est.ulatina.edu.pa |
-      <i class="fa-solid fa-phone"></i> +507 6921-1424 |
-      <i class="fa-brands fa-linkedin"></i> www.linkedin.com/in/josué-meléndez-herrera |
-      <i class="fa-brands fa-github"></i> github.com/joshue24
+      <p>
+        <i class="fa-solid fa-envelope"></i> jmelende@est.ulatina.edu.pa |
+        <i class="fa-solid fa-phone"></i> +507 6921-1424 |
+        <i class="fa-brands fa-linkedin"></i> www.linkedin.com/in/josué-meléndez-herrera |
+        <i class="fa-brands fa-github"></i> github.com/joshue24
+      </p>
     </div>
   </header>
 
-  <div class="perfil"> 
-  !Bievenid@s!
-    Soy un apasionado de la ciberseguridad con experiencia en gestión de riesgos y el fortalecimiento de la seguridad de los procesos tecnológicos 
-    mediante la adopción de estándares internacionales (NIST, ISO 27001, ISO 22301) y buenas prácticas(ITIL 4). Me mantengo en aprendizaje constante a través de laboratorios practicos en análisis y monitoreo de seguridad<strong>, 
-    siempre con la convicción de aportar valor en la protección de infraestructuras, sistemas críticos y datos sensibles. 
+  <div class="descripcion">
+    Soy un entusiasta de la ciberseguridad, comprometido con el aprendizaje continuo y la aplicación de mejores prácticas para proteger sistemas y datos. Me apasiona la gestión de riesgos y la inteligencia de amenazas, con el objetivo de ayudar a las organizaciones a fortalecer su seguridad de manera proactiva, manteniéndome siempre actualizado en las tendencias emergentes de ciberseguridad.
   </div>
 
   <nav>
@@ -131,47 +115,128 @@
   </nav>
 
   <div class="contenido">
+    <!-- Galería de Proyectos -->
     <div class="columna">
       <h2>Galería de Proyectos</h2>
-      <ul>
-        <li><i class="fa-solid fa-shield-halved"></i> Proyecto BIA-BCP – Identificación de riesgos TI</li>
-        <li><i class="fa-solid fa-network-wired"></i> Laboratorios: Wazuh & Wireshark</li>
-        <li><i class="fa-solid fa-diagram-project"></i> Gestión de proyectos con MS Project & ProjectLibre</li>
-      </ul>
+
+      <div class="proyecto">
+        <h3><i class="fa-solid fa-shield-halved"></i> Proyecto BIA-BCP</h3>
+        <p><strong>Objetivo:</strong> Identificación de riesgos en procesos TI.</p>
+        <p><strong>Herramientas:</strong> ISO 22301, portal web de procedimientos documentados.</p>
+        <p><strong>Procedimiento:</strong> Participación como analista de procesos en la fase de entendimiento de los procesos crìticos de la organización.</p>
+        <p><strong>Evidencia visual:</strong>No aplicable por confidencialidad</p> 
+        <p><strong>Resultados:</strong> Riesgos críticos documentados.</p>
+        <p><strong>Valor agregado:</strong> Aporte a la resiliencia organizacional.</p>
+      </div>
+
+      <div class="proyecto">
+        <h3><i class="fa-solid fa-network-wired"></i> Laboratorios Wazuh & Wireshark</h3>
+        <p><strong>Objetivo:</strong> Simular entornos de monitoreo y análisis de tráfico.</p>
+        <p><strong>Herramientas:</strong> Wazuh SIEM, Wireshark.</p>
+        <p><strong>Procedimiento:</strong> Instalación en VM, detección de anomalías.</p>
+        <p><strong>Evidencia visual:</strong></p>
+        
+        <a href="docs/laboratorio whazu.pdf" target="_blank">
+        <i class="fa-solid fa-file-pdf"></i> Ver Reporte Wazuh
+        </a><br>
+        <a href="docs/analisis forense wireshark.pdf" target="_blank">
+        <i class="fa-solid fa-file-pdf"></i> Ver Reporte Wireshark
+        </a>
+
+        <p><strong>Resultados:</strong> Identificación de tráfico sospechoso.</p>
+        <p><strong>Valor agregado:</strong> Competencias prácticas en seguridad defensiva.</p>
+      </div>
+
+      <div class="proyecto">
+        <h3><i class="fa-solid fa-diagram-project"></i> Gestión de Proyectos con MS Project & ProjectLibre</h3>
+        <p><strong>Objetivo:</strong> Planificación y control de proyectos TI.</p>
+        <p><strong>Herramientas:</strong> MS Project, ProjectLibre.</p>
+        <p><strong>Procedimiento:</strong> Diseño de cronogramas y rutas críticas.</p>
+        <p><strong>Evidencia visual:</strong></p>
+
+        <a href="docs/Diagrama de Gantt.jpg" target="_blank">
+        <i class="fa-solid fa-image"></i> Ver Evidencia de Gestión de Proyectos       
+        </a>
+
+<p><strong>Resultados:</strong> Optimización de tiempos y recursos.</p>
+        <p><strong>Valor agregado:</strong> Fortalecimiento en gestión de proyectos TI.</p>
+      </div>
     </div>
 
+    <!-- Habilidades -->
     <div class="columna">
       <h2>Habilidades</h2>
       <ul>
-        <li><i class="fa-solid fa-book"></i> Gobernanza y Cumplimiento (NIST, ITIL, COBIT 2019, ISO 22301)</li>
-        <li><i class="fa-solid fa-magnifying-glass-chart"></i> Monitoreo y análisis de seguridad</li>
-        <li><i class="fa-solid fa-code"></i> Conocimientos en SonarQube & Cypress</li>
+        <li><i class="fa-solid fa-book"></i> Conocimientos en marcos de ciberseguridad y buenas practicas en gestion de servicios  de TI (NIST, ISO 27001, ISO 22301, ITIL 4)</li><br>
+        
+        <li><i class="fa-solid fa-magnifying-glass-chart"></i> Monitoreo y análisis de seguridad: Wireshark, SIEM (Wazuh)</li><br>
+        
+        <li><i class="fa-solid fa-diagram-project"></i> Gestión de Proyectos (MS Project, ProjectLibre, PMI)</li><br>
+        
+        <li><i class="fa-solid fa-code"></i> Conocimientos en SonarQube & Cypress</li><br>
+        
+        <li><i class="fa-solid fa-lightbulb"></i> Creatividad e Innovación</li><br>
+        
+        <li><i class="fa-solid fa-brain"></i> Pensamiento Analítico y Crítico</li><br>
+        
+        <li><i class="fa-solid fa-user-check"></i> Orientación hacia el Cliente</li><br> 
       </ul>
     </div>
 
+    <!-- Experiencia Laboral -->
     <div class="columna">
       <h2>Experiencia Laboral</h2>
       <ul>
-        <li><i class="fa-solid fa-briefcase"></i> Analista de Procesos TI – Participación en proyectos críticos</li>
-        <li><i class="fa-solid fa-shield"></i> Aportes en gestión de continuidad y seguridad</li>
-      </ul>
-    </div>
+      <div class="card">
+        <li><i class="fas fa-user-shield"></i> Evaluador de Control Interno</strong><br><br>
+        <em>Funciones:</em><br> Integración de seguridad en el ciclo de vida del software<br> 
+        Aseguramiento de estándares, políticas y procedimientos.
+      </div><br>
 
+      <div class="card">
+        <li><i class="fas fa-user-shield"></i> Analista de Procesos TI</strong><br><br>
+        <em>Funciones:</em><br> Gestión de cambios tecnológicos.<br>
+        Seguimiento del SGSI.
+        Doccumentar procesos y políticas
+      </div><br>
+
+      <div class="card">
+        <li><i class="fas fa-user-shield"></i> Técnico de Operaciones y Centro de Datos</strong><br><br>
+        <em>Funciones:</em><br> Administración de respaldos. 
+        Monitoreo de redes y sistemas de misión crítica(climatización, extinción de incendio y UPS)
+      </div><br>
+      </div>
+
+    <!-- Educación -->
     <div class="columna">
       <h2>Educación</h2>
       <ul>
-        <li><i class="fa-solid fa-certificate"></i> Certificación CC (ISC)² en Ciberseguridad</li>
-        <li><i class="fa-solid fa-graduation-cap"></i> Cursos en ITIL 4, COBIT 2019 y Continuidad de Negocio</li>
+        <li><i class="fa-solid fa-certificate"></i> Certificación CC (ISC)² en Ciberseguridad</li><br>
+        <li><i class="fa-solid fa-graduation-cap"></i> BootCamp Analista SOC L1</li><br>
+        <li><i class="fa-solid fa-graduation-cap"></i> BootCamp Fundamentos de Ciberseguridad</li><br>
+        <li><i class="fa-solid fa-graduation-cap"></i> Curso de Gestión de Proyectos</li><br>
+        <li><i class="fa-solid fa-graduation-cap"></i> Curso de Ciberseguridad y Gestión de Crisis</li><br>
+        <li><i class="fa-solid fa-graduation-cap"></i> Curso en ISO 27001 & ISO 22301</li><br>
+        <li><i class="fa-solid fa-graduation-cap"></i> CCNA Routing & Switching</li><br>
+        <li><i class="fa-solid fa-user-graduate"></i> Licenciatura en Ingeniería en Sistemas Informáticos</li>
       </ul>
     </div>
   </div>
+
+<footer style="text-align:center; padding:20px; font-size:0.9rem; color:#666;">
+  <p>© 2025 Josué Meléndez Herrera. Todos los derechos reservados.</p>
+  <p>Este portafolio está protegido por derechos de autor. No se permite la reproducción total o parcial sin autorización.</p>
+
+    <a href="mailto:jmelende@est.ulatina.edu.pa" style="color:#6a0dad; text-decoration:none; margin:0 10px;">
+      <i class="fa-solid fa-envelope"></i> Correo
+    </a>
+    <a href="https://www.linkedin.com/in/josué-meléndez-herrera" target="_blank" style="color:#6a0dad; text-decoration:none; margin:0 10px;">
+      <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+  </p>
+
+
+</footer>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
